@@ -1,0 +1,27 @@
+#Internal package file, do not edit.
+#Mon Mar 26 02:03:50 ICT 2018
+2.base=E\:\\Android\\CuuChuong\\app\\build\\intermediates\\assets\\debug
+5.set=ASSET
+0.path=comicbd.ttf
+2.baseType=DIRECTORY
+3.base=E\:\\Android\\CuuChuong\\app\\build\\intermediates\\assets\\debug
+2.set=ASSET
+1.path=NewAthleticM54.ttf
+4.base=E\:\\Android\\CuuChuong\\app\\build\\intermediates\\assets\\debug
+count=6
+5.baseType=DIRECTORY
+2.path=ohwhale.ttf
+5.base=E\:\\Android\\CuuChuong\\app\\build\\intermediates\\assets\\debug
+4.set=ASSET
+3.path=VNVOGU.TTF
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=gohan.ttf
+1.baseType=DIRECTORY
+5.path=AddisAbaba.ttf
+0.base=E\:\\Android\\CuuChuong\\app\\build\\intermediates\\assets\\debug
+0.baseType=DIRECTORY
+3.set=ASSET
+1.base=E\:\\Android\\CuuChuong\\app\\build\\intermediates\\assets\\debug
+4.baseType=DIRECTORY
+0.set=ASSET

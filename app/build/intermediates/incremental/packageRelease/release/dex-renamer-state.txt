@@ -1,0 +1,4 @@
+#Mon Mar 26 02:26:36 ICT 2018
+base.0=E\:\\Android\\CuuChuong\\app\\build\\intermediates\\transforms\\dex\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

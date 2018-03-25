@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Android\\FreakingMath\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-normal-v4\\values-normal-v4.xml",
+            "map": [
+                {
+                    "source": "E:\\Android\\FreakingMath\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,9",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,4",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,319",
+                        "endColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,42",
+                        "endOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,357"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,95,138,184,227,272,315,360,402,444",
+                        "endColumns": "39,42,45,42,44,42,44,41,41,42",
+                        "endOffsets": "90,133,179,222,267,310,355,397,439,482"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Android\\CuuChuong\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-normal-v4\\values-normal-v4.xml",
+            "map": [
+                {
+                    "source": "E:\\Android\\CuuChuong\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "from": {
+                        "startLines": "2,13,14,12,11,5,8,7,4,9",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,481,524,438,393,163,274,232,121,319",
+                        "endColumns": "39,42,45,42,44,42,44,41,41,42",
+                        "endOffsets": "90,519,565,476,433,201,314,269,158,357"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,95,138,184,227,272,315,360,402,444",
+                        "endColumns": "39,42,45,42,44,42,44,41,41,42",
+                        "endOffsets": "90,133,179,222,267,310,355,397,439,482"
+                    }
+                }
+            ]
+        }
+    ]
+}

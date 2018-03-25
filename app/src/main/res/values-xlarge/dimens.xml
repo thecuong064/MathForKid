@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="asb_size">20sp</dimen>
+    <!--Main Activity -->
+    <dimen name="title_size">100sp</dimen>
+    <dimen name="play_button">200dp</dimen>
+    <!--Game Activity -->
+    <dimen name="score_size">72sp</dimen>
+    <dimen name="question_size">128sp</dimen>
+    <dimen name="yesno_size">360dp</dimen>
+    <!--Game Over Activity -->
+    <dimen name="gameover_size">64sp</dimen>
+    <dimen name="button_go_w">160dp</dimen>
+    <dimen name="button_go_h">100dp</dimen>
+    <dimen name="button_go_text">40sp</dimen>
+</resources>

@@ -1,0 +1,73 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Android\\CuuChuong\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "map": [
+                {
+                    "source": "E:\\Android\\CuuChuong\\app\\src\\main\\res\\values-xlarge\\dimens.xml",
+                    "from": {
+                        "startLines": "2,13,14,12,11,5,8,7,4,9",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,498,543,453,407,169,284,241,125,331",
+                        "endColumns": "39,43,45,43,44,43,45,41,42,42",
+                        "endOffsets": "92,537,584,492,447,208,325,278,163,369"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "473,513,557,603,647,692,736,782,824,867",
+                        "endColumns": "39,43,45,43,44,43,45,41,42,42",
+                        "endOffsets": "508,552,598,642,687,731,777,819,862,905"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\32fa9bb097c7854aad6f485d6b058ba8\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,126,197,267,337,405",
+                        "endColumns": "70,70,69,69,67,67",
+                        "endOffsets": "121,192,262,332,400,468"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Android\\FreakingMath\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "map": [
+                {
+                    "source": "E:\\Android\\FreakingMath\\app\\src\\main\\res\\values-xlarge\\dimens.xml",
+                    "from": {
+                        "startLines": "2,13,14,12,11,5,8,7,4,9",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,498,543,453,407,169,284,241,125,331",
+                        "endColumns": "39,43,45,43,44,43,45,41,42,42",
+                        "endOffsets": "92,537,584,492,447,208,325,278,163,369"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "473,513,557,603,647,692,736,782,824,867",
+                        "endColumns": "39,43,45,43,44,43,45,41,42,42",
+                        "endOffsets": "508,552,598,642,687,731,777,819,862,905"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\32fa9bb097c7854aad6f485d6b058ba8\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,126,197,267,337,405",
+                        "endColumns": "70,70,69,69,67,67",
+                        "endOffsets": "121,192,262,332,400,468"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app">Math For Kid</string>
+    <string name="app_name">MATH FOR KID</string>
+    <string name="gameover">GAME OVER</string>
+    <string name="score">SCORE</string>
+    <string name="play">PLAY</string>
+    <string name="exit">EXIT</string>
+    <string name="best">BEST</string>
+</resources>

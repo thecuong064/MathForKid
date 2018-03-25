@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cuong.mathforkid.GameOverActivity"
+    android:background="#292929">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="MATH FOR KID"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/over"
+        android:textSize="@dimen/title_size"/>
+
+    <TextView
+        android:id="@+id/over"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="GAME OVER"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/gameover_size"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="48dp"/>
+
+    <TextView
+        android:id="@+id/currentScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="SCORE"
+        android:textSize="@dimen/gameover_size"
+        android:layout_centerInParent="true"
+        android:layout_alignStart="@id/over"
+        android:layout_below="@id/over"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/newScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/over"
+        android:layout_below="@id/over"
+        tools:text="50"
+        android:textSize="@dimen/gameover_size"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/topScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="BEST"
+        android:textSize="@dimen/gameover_size"
+        android:layout_centerInParent="true"
+        android:layout_alignStart="@id/over"
+        android:layout_below="@id/currentScore"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/bestScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/over"
+        android:layout_below="@id/newScore"
+        tools:text="50"
+        android:textSize="@dimen/gameover_size"
+        android:layout_marginBottom="16dp"/>
+
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="@dimen/button_go_w"
+        android:layout_height="@dimen/button_go_h"
+        android:layout_alignStart="@id/topScore"
+        android:layout_below="@+id/topScore"
+        tools:text="EXIT"
+        android:textSize="@dimen/button_go_text"/>
+
+    <Button
+        android:id="@+id/resume"
+        android:layout_width="@dimen/button_go_w"
+        android:layout_height="@dimen/button_go_h"
+        android:layout_below="@id/bestScore"
+        android:layout_alignEnd="@id/bestScore"
+        tools:text="PLAY"
+        android:textSize="@dimen/button_go_text"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ASB"
+        android:textSize="@dimen/asb_size"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"/>
+</RelativeLayout>
