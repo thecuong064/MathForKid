@@ -98,10 +98,4 @@ public class GameOverActivity extends AppCompatActivity implements View.OnClickL
         }
     }
 
-   /* @Override
-    public void onBackPressed() {
-        Intent t = new Intent(this,MainActivity.class);
-        startActivity(t);
-    }*/
-
 }
