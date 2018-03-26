@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="cuong.mathforkid.MainActivity"
-    android:background="#292929">
+    android:background="#42A5F5">
 
     <View
         android:id="@+id/fakeView"
@@ -17,15 +17,15 @@
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="Freaking Math"
+        tools:text="MATH FOR KID"
         android:layout_centerHorizontal="true"
         android:layout_above="@id/fakeView"
         android:textSize="@dimen/title_size"/>
-    <ImageView
+    <ImageButton
         android:id="@+id/startButton"
-        android:layout_width="@dimen/play_button"
-        android:layout_height="@dimen/play_button"
-        android:src="@drawable/pl1"
+        android:layout_width="@dimen/play_button_w"
+        android:layout_height="@dimen/play_button_h"
+        android:background="@drawable/play_btn_effect"
         android:layout_centerInParent="true"
         android:layout_below="@id/fakeView"/>
 

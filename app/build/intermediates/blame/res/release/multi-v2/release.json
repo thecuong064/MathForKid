@@ -323,16 +323,16 @@
             ]
         },
         {
-            "outputFile": "E:\\Android\\FreakingMath\\app\\build\\intermediates\\res\\merged\\release\\values-tl_values-tl.arsc.flat",
+            "outputFile": "E:\\Android\\CuuChuong\\app\\build\\intermediates\\res\\merged\\release\\values-en-rIN_values-en-rIN.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\32fa9bb097c7854aad6f485d6b058ba8\\res\\values-tl\\values-tl.xml",
+                    "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\32fa9bb097c7854aad6f485d6b058ba8\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,174,282,405,513,630,718,824,945,1024,1102,1186,1295,1406,1507,1617,1734,1842,1965,2067,2151",
-                        "endColumns": "118,107,122,107,116,87,105,120,78,77,83,108,110,100,109,116,107,122,101,83,100",
-                        "endOffsets": "169,277,400,508,625,713,819,940,1019,1097,1181,1290,1401,1502,1612,1729,1837,1960,2062,2146,2247"
+                        "startOffsets": "55,159,267,390,490,598,682,782,897,974,1050,1132,1235,1339,1438,1543,1646,1750,1869,1969,2051",
+                        "endColumns": "103,107,122,99,107,83,99,114,76,75,81,102,103,98,104,102,103,118,99,81,100",
+                        "endOffsets": "154,262,385,485,593,677,777,892,969,1045,1127,1230,1334,1433,1538,1641,1745,1864,1964,2046,2147"
                     }
                 }
             ]
@@ -353,16 +353,16 @@
             ]
         },
         {
-            "outputFile": "E:\\Android\\CuuChuong\\app\\build\\intermediates\\res\\merged\\release\\values-en-rIN_values-en-rIN.arsc.flat",
+            "outputFile": "E:\\Android\\FreakingMath\\app\\build\\intermediates\\res\\merged\\release\\values-tl_values-tl.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\32fa9bb097c7854aad6f485d6b058ba8\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\32fa9bb097c7854aad6f485d6b058ba8\\res\\values-tl\\values-tl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,267,390,490,598,682,782,897,974,1050,1132,1235,1339,1438,1543,1646,1750,1869,1969,2051",
-                        "endColumns": "103,107,122,99,107,83,99,114,76,75,81,102,103,98,104,102,103,118,99,81,100",
-                        "endOffsets": "154,262,385,485,593,677,777,892,969,1045,1127,1230,1334,1433,1538,1641,1745,1864,1964,2046,2147"
+                        "startOffsets": "55,174,282,405,513,630,718,824,945,1024,1102,1186,1295,1406,1507,1617,1734,1842,1965,2067,2151",
+                        "endColumns": "118,107,122,107,116,87,105,120,78,77,83,108,110,100,109,116,107,122,101,83,100",
+                        "endOffsets": "169,277,400,508,625,713,819,940,1019,1097,1181,1290,1401,1502,1612,1729,1837,1960,2062,2146,2247"
                     }
                 }
             ]
@@ -398,21 +398,6 @@
             ]
         },
         {
-            "outputFile": "E:\\Android\\FreakingMath\\app\\build\\intermediates\\res\\merged\\release\\values-my_values-my.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\32fa9bb097c7854aad6f485d6b058ba8\\res\\values-my\\values-my.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,164,272,397,502,619,712,824,952,1030,1109,1195,1318,1430,1532,1658,1769,1879,2002,2102,2186",
-                        "endColumns": "108,107,124,104,116,92,111,127,77,78,85,122,111,101,125,110,109,122,99,83,100",
-                        "endOffsets": "159,267,392,497,614,707,819,947,1025,1104,1190,1313,1425,1527,1653,1764,1874,1997,2097,2181,2282"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "E:\\Android\\CuuChuong\\app\\build\\intermediates\\res\\merged\\release\\values-v22_values-v22.arsc.flat",
             "map": [
                 {
@@ -424,6 +409,21 @@
                         "endLines": "2,3,8,13",
                         "endColumns": "74,86,12,12",
                         "endOffsets": "125,212,548,896"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Android\\FreakingMath\\app\\build\\intermediates\\res\\merged\\release\\values-my_values-my.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\32fa9bb097c7854aad6f485d6b058ba8\\res\\values-my\\values-my.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,164,272,397,502,619,712,824,952,1030,1109,1195,1318,1430,1532,1658,1769,1879,2002,2102,2186",
+                        "endColumns": "108,107,124,104,116,92,111,127,77,78,85,122,111,101,125,110,109,122,99,83,100",
+                        "endOffsets": "159,267,392,497,614,707,819,947,1025,1104,1190,1313,1425,1527,1653,1764,1874,1997,2097,2181,2282"
                     }
                 }
             ]
@@ -474,21 +474,6 @@
             ]
         },
         {
-            "outputFile": "E:\\Android\\CuuChuong\\app\\build\\intermediates\\res\\merged\\release\\values-mr_values-mr.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\32fa9bb097c7854aad6f485d6b058ba8\\res\\values-mr\\values-mr.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,173,281,404,510,617,707,808,923,1000,1078,1158,1270,1372,1468,1577,1678,1793,1916,2021,2101",
-                        "endColumns": "117,107,122,105,106,89,100,114,76,77,79,111,101,95,108,100,114,122,104,79,100",
-                        "endOffsets": "168,276,399,505,612,702,803,918,995,1073,1153,1265,1367,1463,1572,1673,1788,1911,2016,2096,2197"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "E:\\Android\\CuuChuong\\app\\build\\intermediates\\res\\merged\\release\\values-zh-rCN_values-zh-rCN.arsc.flat",
             "map": [
                 {
@@ -499,6 +484,21 @@
                         "startOffsets": "55,151,258,381,476,576,658,755,861,937,1013,1091,1187,1283,1378,1475,1570,1668,1780,1874,1952",
                         "endColumns": "95,106,122,94,99,81,96,105,75,75,77,95,95,94,96,94,97,111,93,77,100",
                         "endOffsets": "146,253,376,471,571,653,750,856,932,1008,1086,1182,1278,1373,1470,1565,1663,1775,1869,1947,2048"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Android\\CuuChuong\\app\\build\\intermediates\\res\\merged\\release\\values-mr_values-mr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\32fa9bb097c7854aad6f485d6b058ba8\\res\\values-mr\\values-mr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,281,404,510,617,707,808,923,1000,1078,1158,1270,1372,1468,1577,1678,1793,1916,2021,2101",
+                        "endColumns": "117,107,122,105,106,89,100,114,76,77,79,111,101,95,108,100,114,122,104,79,100",
+                        "endOffsets": "168,276,399,505,612,702,803,918,995,1073,1153,1265,1367,1463,1572,1673,1788,1911,2016,2096,2197"
                     }
                 }
             ]
@@ -875,21 +875,6 @@
             ]
         },
         {
-            "outputFile": "E:\\Android\\FreakingMath\\app\\build\\intermediates\\res\\merged\\release\\values-nb_values-nb.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\32fa9bb097c7854aad6f485d6b058ba8\\res\\values-nb\\values-nb.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,163,272,397,492,606,692,792,905,981,1057,1137,1240,1339,1435,1539,1637,1738,1854,1951,2030",
-                        "endColumns": "107,108,124,94,113,85,99,112,75,75,79,102,98,95,103,97,100,115,96,78,100",
-                        "endOffsets": "158,267,392,487,601,687,787,900,976,1052,1132,1235,1334,1430,1534,1632,1733,1849,1946,2025,2126"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "E:\\Android\\FreakingMath\\app\\build\\intermediates\\res\\merged\\release\\values-bs_values-bs.arsc.flat",
             "map": [
                 {
@@ -900,6 +885,21 @@
                         "startOffsets": "55,174,282,405,514,621,707,808,930,1012,1093,1179,1282,1387,1485,1590,1701,1806,1926,2023,2107",
                         "endColumns": "118,107,122,108,106,85,100,121,81,80,85,102,104,97,104,110,104,119,96,83,100",
                         "endOffsets": "169,277,400,509,616,702,803,925,1007,1088,1174,1277,1382,1480,1585,1696,1801,1921,2018,2102,2203"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Android\\FreakingMath\\app\\build\\intermediates\\res\\merged\\release\\values-nb_values-nb.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\32fa9bb097c7854aad6f485d6b058ba8\\res\\values-nb\\values-nb.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,163,272,397,492,606,692,792,905,981,1057,1137,1240,1339,1435,1539,1637,1738,1854,1951,2030",
+                        "endColumns": "107,108,124,94,113,85,99,112,75,75,79,102,98,95,103,97,100,115,96,78,100",
+                        "endOffsets": "158,267,392,487,601,687,787,900,976,1052,1132,1235,1334,1430,1534,1632,1733,1849,1946,2025,2126"
                     }
                 }
             ]
@@ -1081,21 +1081,6 @@
             ]
         },
         {
-            "outputFile": "E:\\Android\\FreakingMath\\app\\build\\intermediates\\res\\merged\\release\\values-mr_values-mr.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\32fa9bb097c7854aad6f485d6b058ba8\\res\\values-mr\\values-mr.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,173,281,404,510,617,707,808,923,1000,1078,1158,1270,1372,1468,1577,1678,1793,1916,2021,2101",
-                        "endColumns": "117,107,122,105,106,89,100,114,76,77,79,111,101,95,108,100,114,122,104,79,100",
-                        "endOffsets": "168,276,399,505,612,702,803,918,995,1073,1153,1265,1367,1463,1572,1673,1788,1911,2016,2096,2197"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "E:\\Android\\CuuChuong\\app\\build\\intermediates\\res\\merged\\release\\values-zh-rHK_values-zh-rHK.arsc.flat",
             "map": [
                 {
@@ -1106,6 +1091,21 @@
                         "startOffsets": "55,150,257,380,473,573,655,752,860,936,1012,1090,1186,1282,1377,1474,1569,1667,1780,1874,1952",
                         "endColumns": "94,106,122,92,99,81,96,107,75,75,77,95,95,94,96,94,97,112,93,77,101",
                         "endOffsets": "145,252,375,468,568,650,747,855,931,1007,1085,1181,1277,1372,1469,1564,1662,1775,1869,1947,2049"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Android\\FreakingMath\\app\\build\\intermediates\\res\\merged\\release\\values-mr_values-mr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\32fa9bb097c7854aad6f485d6b058ba8\\res\\values-mr\\values-mr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,281,404,510,617,707,808,923,1000,1078,1158,1270,1372,1468,1577,1678,1793,1916,2021,2101",
+                        "endColumns": "117,107,122,105,106,89,100,114,76,77,79,111,101,95,108,100,114,122,104,79,100",
+                        "endOffsets": "168,276,399,505,612,702,803,918,995,1073,1153,1265,1367,1463,1572,1673,1788,1911,2016,2096,2197"
                     }
                 }
             ]
@@ -1236,23 +1236,28 @@
                 {
                     "source": "E:\\Android\\CuuChuong\\app\\src\\main\\res\\values-xlarge\\dimens.xml",
                     "from": {
-                        "startLines": "2,13,14,12,11,5,8,7,4,9",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "57,498,543,453,407,169,284,241,125,331",
-                        "endColumns": "39,43,45,43,44,43,45,41,42,42",
-                        "endOffsets": "92,537,584,492,447,208,325,278,163,369"
+                        "startLines": "-1,-1,-1,-1,-1,6,5,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,4,4,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,216,169,-1,-1,-1,-1",
+                        "endColumns": "-1,-1,-1,-1,-1,45,45,-1,-1,-1,-1",
+                        "endOffsets": "-1,-1,-1,-1,-1,257,210,-1,-1,-1,-1"
                     },
                     "to": {
-                        "startLines": "8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "473,513,557,603,647,692,736,782,824,867",
-                        "endColumns": "39,43,45,43,44,43,45,41,42,42",
-                        "endOffsets": "508,552,598,642,687,731,777,819,862,905"
+                        "startLines": "8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "473,513,557,603,647,692,738,784,830,872,915",
+                        "endColumns": "39,43,45,43,44,45,45,45,41,42,42",
+                        "endOffsets": "508,552,598,642,687,733,779,825,867,910,953"
                     }
                 },
                 {
                     "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\32fa9bb097c7854aad6f485d6b058ba8\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
                         "startOffsets": "55,126,197,267,337,405",
@@ -1552,35 +1557,33 @@
                 {
                     "source": "E:\\Android\\CuuChuong\\app\\src\\main\\res\\values-large\\dimens.xml",
                     "from": {
-                        "startLines": "2,13,14,12,11,5,8,7,4,9",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "57,497,541,452,406,168,283,240,125,330",
-                        "endColumns": "39,42,45,43,44,43,45,41,41,42",
-                        "endOffsets": "92,535,582,491,446,207,324,277,162,368"
+                        "startLines": "-1,-1,-1,-1,-1,6,5,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,4,4,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,215,168,-1,-1,-1,-1",
+                        "endColumns": "-1,-1,-1,-1,-1,45,45,-1,-1,-1,-1",
+                        "endOffsets": "-1,-1,-1,-1,-1,256,209,-1,-1,-1,-1"
                     },
                     "to": {
-                        "startLines": "9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "532,572,615,661,705,750,794,840,882,924",
-                        "endColumns": "39,42,45,43,44,43,45,41,41,42",
-                        "endOffsets": "567,610,656,700,745,789,835,877,919,962"
+                        "startLines": "9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "532,572,615,661,705,750,796,842,888,930,972",
+                        "endColumns": "39,42,45,43,44,45,45,45,41,41,42",
+                        "endOffsets": "567,610,656,700,745,791,837,883,925,967,1010"
                     }
                 },
                 {
                     "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\32fa9bb097c7854aad6f485d6b058ba8\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,114,185,256,326,396,464,532,636",
-                        "endColumns": "58,70,70,69,69,67,67,103,115",
-                        "endOffsets": "109,180,251,321,391,459,527,631,747"
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,19,20",
+                        "startLines": "2,3,4,5,6,7,8,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,114,185,256,326,396,464,967,1071",
+                        "startOffsets": "55,114,185,256,326,396,464,1015,1119",
                         "endColumns": "58,70,70,69,69,67,67,103,115",
-                        "endOffsets": "109,180,251,321,391,459,527,1066,1182"
+                        "endOffsets": "109,180,251,321,391,459,527,1114,1230"
                     }
                 }
             ]
@@ -1877,18 +1880,18 @@
                 {
                     "source": "E:\\Android\\CuuChuong\\app\\src\\main\\res\\values-normal\\dimens.xml",
                     "from": {
-                        "startLines": "2,13,14,12,11,5,8,7,4,9",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,481,524,438,393,163,274,232,121,319",
-                        "endColumns": "39,42,45,42,44,42,44,41,41,42",
-                        "endOffsets": "90,519,565,476,433,201,314,269,158,357"
+                        "startLines": "-1,-1,-1,-1,-1,6,5,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,4,4,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,208,163,-1,-1,-1,-1",
+                        "endColumns": "-1,-1,-1,-1,-1,44,44,-1,-1,-1,-1",
+                        "endOffsets": "-1,-1,-1,-1,-1,248,203,-1,-1,-1,-1"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,95,138,184,227,272,315,360,402,444",
-                        "endColumns": "39,42,45,42,44,42,44,41,41,42",
-                        "endOffsets": "90,133,179,222,267,310,355,397,439,482"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,95,138,184,227,272,317,362,407,449,491",
+                        "endColumns": "39,42,45,42,44,44,44,44,41,41,42",
+                        "endOffsets": "90,133,179,222,267,312,357,402,444,486,529"
                     }
                 }
             ]

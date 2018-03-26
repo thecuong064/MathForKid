@@ -475,14 +475,14 @@ public final class R {
         public static final int notification_subtext_size = 0x7f050069;
         public static final int notification_top_pad = 0x7f05006a;
         public static final int notification_top_pad_large_text = 0x7f05006b;
-        public static final int tooltip_corner_radius = 0x7f050070;
-        public static final int tooltip_horizontal_padding = 0x7f050071;
-        public static final int tooltip_margin = 0x7f050072;
-        public static final int tooltip_precise_anchor_extra_offset = 0x7f050073;
-        public static final int tooltip_precise_anchor_threshold = 0x7f050074;
-        public static final int tooltip_vertical_padding = 0x7f050075;
-        public static final int tooltip_y_offset_non_touch = 0x7f050076;
-        public static final int tooltip_y_offset_touch = 0x7f050077;
+        public static final int tooltip_corner_radius = 0x7f050071;
+        public static final int tooltip_horizontal_padding = 0x7f050072;
+        public static final int tooltip_margin = 0x7f050073;
+        public static final int tooltip_precise_anchor_extra_offset = 0x7f050074;
+        public static final int tooltip_precise_anchor_threshold = 0x7f050075;
+        public static final int tooltip_vertical_padding = 0x7f050076;
+        public static final int tooltip_y_offset_non_touch = 0x7f050077;
+        public static final int tooltip_y_offset_touch = 0x7f050078;
     }
     public static final class drawable {
         public static final int abc_ab_share_pack_mtrl_alpha = 0x7f060001;
@@ -568,20 +568,20 @@ public final class R {
         public static final int abc_textfield_search_default_mtrl_alpha = 0x7f060051;
         public static final int abc_textfield_search_material = 0x7f060052;
         public static final int abc_vector_test = 0x7f060053;
-        public static final int notification_action_background = 0x7f06005b;
-        public static final int notification_bg = 0x7f06005c;
-        public static final int notification_bg_low = 0x7f06005d;
-        public static final int notification_bg_low_normal = 0x7f06005e;
-        public static final int notification_bg_low_pressed = 0x7f06005f;
-        public static final int notification_bg_normal = 0x7f060060;
-        public static final int notification_bg_normal_pressed = 0x7f060061;
-        public static final int notification_icon_background = 0x7f060062;
-        public static final int notification_template_icon_bg = 0x7f060063;
-        public static final int notification_template_icon_low_bg = 0x7f060064;
-        public static final int notification_tile_bg = 0x7f060065;
-        public static final int notify_panel_notification_icon_bg = 0x7f060066;
-        public static final int tooltip_frame_dark = 0x7f060068;
-        public static final int tooltip_frame_light = 0x7f060069;
+        public static final int notification_action_background = 0x7f06005d;
+        public static final int notification_bg = 0x7f06005e;
+        public static final int notification_bg_low = 0x7f06005f;
+        public static final int notification_bg_low_normal = 0x7f060060;
+        public static final int notification_bg_low_pressed = 0x7f060061;
+        public static final int notification_bg_normal = 0x7f060062;
+        public static final int notification_bg_normal_pressed = 0x7f060063;
+        public static final int notification_icon_background = 0x7f060064;
+        public static final int notification_template_icon_bg = 0x7f060065;
+        public static final int notification_template_icon_low_bg = 0x7f060066;
+        public static final int notification_tile_bg = 0x7f060067;
+        public static final int notify_panel_notification_icon_bg = 0x7f060068;
+        public static final int tooltip_frame_dark = 0x7f06006b;
+        public static final int tooltip_frame_light = 0x7f06006c;
     }
     public static final class id {
         public static final int action0 = 0x7f070006;

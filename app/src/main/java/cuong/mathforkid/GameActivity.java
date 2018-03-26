@@ -7,23 +7,26 @@ import android.media.MediaPlayer;
 import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class GameActivity extends AppCompatActivity implements View.OnClickListener {
+public class GameActivity extends AppCompatActivity implements View.OnClickListener, View.OnTouchListener {
     static final String[] backGrColor= {"#9C27B0", "#6A1B9A", "#3949AB", "#512DA8", "#1565C0", "#FFB300", "#9E9D24",
                                         "#64DD17", "#00E676", "#FFA000", "#5D4037", "#455A64"};
     RelativeLayout layout;
     TextView formulaText, resText, curScoreText, cScore;
     int a, b, res, maxx, minn, keyRes, currentScore;
-    ImageView trueChoice, falseChoice;
+    ImageButton trueChoice, falseChoice;
     Timer timer;
     TimerTask timerTask;
     Random random;
@@ -66,6 +69,8 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
         //user input
         trueChoice.setOnClickListener(this);
         falseChoice.setOnClickListener(this);
+        trueChoice.setOnTouchListener(this);
+        falseChoice.setOnTouchListener(this);
 
         //create sound for button click
         rightSound = MediaPlayer.create(this, R.raw.rightbell);
@@ -102,7 +107,6 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
         if (res<0) res = 0;         //cannot have zero result
         resText.setText("= "+res); //display the result
         resText.setTextColor(getResources().getColor(R.color.textColor));
-
 
   /*      //create timer task
         timer = new Timer();
@@ -204,4 +208,31 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
     public void onBackPressed() {
         //do nothing
     }
+
+    @Override
+    public boolean onTouch(View v, MotionEvent event) {
+        switch (event.getAction()) {
+            case MotionEvent.ACTION_DOWN:
+                //pressed
+                switch (v.getId()) {
+                    case R.id.trueBtn:
+                        falseChoice.setClickable(false);
+                      //  Toast.makeText(GameActivity.this,"Hold true",Toast.LENGTH_SHORT).show();
+                        break;
+                    case R.id.falseBtn:
+                        trueChoice.setClickable(false);
+                     //   Toast.makeText(GameActivity.this,"Hold false",Toast.LENGTH_SHORT).show();
+                        break;
+                }
+                break;
+            case MotionEvent.ACTION_UP:
+                //released
+              //  Toast.makeText(GameActivity.this,"Release",Toast.LENGTH_SHORT).show();
+                trueChoice.setClickable(true);
+                falseChoice.setClickable(true);
+                break;
+        }
+        return false;
+    }
+
 }

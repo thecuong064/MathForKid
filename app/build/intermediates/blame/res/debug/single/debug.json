@@ -96,6 +96,10 @@
         "source": "E:\\Android\\CuuChuong\\app\\src\\main\\res\\mipmap-xxhdpi\\math_icon.png"
     },
     {
+        "merged": "E:\\Android\\CuuChuong\\app\\build\\intermediates\\res\\merged\\debug\\drawable_play_btn_effect.xml.flat",
+        "source": "E:\\Android\\CuuChuong\\app\\src\\main\\res\\drawable\\play_btn_effect.xml"
+    },
+    {
         "merged": "E:\\Android\\CuuChuong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\32fa9bb097c7854aad6f485d6b058ba8\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
     },
@@ -1536,6 +1540,10 @@
         "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\32fa9bb097c7854aad6f485d6b058ba8\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
+        "merged": "E:\\Android\\CuuChuong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_hold_play.png.flat",
+        "source": "E:\\Android\\CuuChuong\\app\\src\\main\\res\\drawable-v24\\hold_play.png"
+    },
+    {
         "merged": "E:\\Android\\CuuChuong\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "E:\\Android\\CuuChuong\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -2062,6 +2070,10 @@
     {
         "merged": "E:\\Android\\CuuChuong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\32fa9bb097c7854aad6f485d6b058ba8\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "E:\\Android\\CuuChuong\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_normal_play.png.flat",
+        "source": "E:\\Android\\CuuChuong\\app\\src\\main\\res\\drawable-v24\\normal_play.png"
     },
     {
         "merged": "E:\\Android\\CuuChuong\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_singlechoice_material.xml.flat",

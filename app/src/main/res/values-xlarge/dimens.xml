@@ -3,7 +3,8 @@
     <dimen name="asb_size">20sp</dimen>
     <!--Main Activity -->
     <dimen name="title_size">100sp</dimen>
-    <dimen name="play_button">200dp</dimen>
+    <dimen name="play_button_w">210dp</dimen>
+    <dimen name="play_button_h">130dp</dimen>
     <!--Game Activity -->
     <dimen name="score_size">72sp</dimen>
     <dimen name="question_size">128sp</dimen>
