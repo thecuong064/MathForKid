@@ -67,7 +67,7 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\thecuong064\.gradle\
 	android:allowBackup
 		ADDED from E:\Android\CuuChuong\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from E:\Android\CuuChuong\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from E:\Android\CuuChuong\app\src\main\AndroidManifest.xml:11:9-48
 activity#cuong.mathforkid.MainActivity
 ADDED from E:\Android\CuuChuong\app\src\main\AndroidManifest.xml:12:9-19:20
 	android:screenOrientation
