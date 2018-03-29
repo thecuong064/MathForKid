@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Thu Mar 29 20:57:38 ICT 2018
+1.base=E\:\\Android\\CuuChuong\\app\\build\\intermediates\\assets\\release
+2.path=NewAthleticM54.ttf
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=E\:\\Android\\CuuChuong\\app\\build\\intermediates\\assets\\release
+3.set=ASSET
+2.set=ASSET
+1.baseType=DIRECTORY
+3.path=VNVOGU.TTF
+count=4
+1.set=ASSET
+0.path=classes.dex
+3.base=E\:\\Android\\CuuChuong\\app\\build\\intermediates\\assets\\release
+0.set=DEX
+0.base=E\:\\Android\\CuuChuong\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+2.baseType=DIRECTORY
+1.path=comicbd.ttf

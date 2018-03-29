@@ -1,75 +1,38 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Android\\FreakingMath\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
-            "map": [
-                {
-                    "source": "E:\\Android\\FreakingMath\\app\\src\\main\\res\\values-large\\dimens.xml",
-                    "from": {
-                        "startLines": "2,13,14,12,11,5,8,7,4,9",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "57,497,541,452,406,168,283,240,125,330",
-                        "endColumns": "39,42,45,43,44,43,45,41,41,42",
-                        "endOffsets": "92,535,582,491,446,207,324,277,162,368"
-                    },
-                    "to": {
-                        "startLines": "9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "532,572,615,661,705,750,794,840,882,924",
-                        "endColumns": "39,42,45,43,44,43,45,41,41,42",
-                        "endOffsets": "567,610,656,700,745,789,835,877,919,962"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\32fa9bb097c7854aad6f485d6b058ba8\\res\\values-large-v4\\values-large-v4.xml",
-                    "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,19,20",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,114,185,256,326,396,464,967,1071",
-                        "endColumns": "58,70,70,69,69,67,67,103,115",
-                        "endOffsets": "109,180,251,321,391,459,527,1066,1182"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "E:\\Android\\CuuChuong\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
                     "source": "E:\\Android\\CuuChuong\\app\\src\\main\\res\\values-large\\dimens.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1,6,5,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,4,4,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,215,168,-1,-1,-1,-1",
-                        "endColumns": "-1,-1,-1,-1,-1,45,45,-1,-1,-1,-1",
-                        "endOffsets": "-1,-1,-1,-1,-1,256,209,-1,-1,-1,-1"
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,11,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,4,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,423,-1,-1",
+                        "endColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,41,-1,-1",
+                        "endOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,460,-1,-1"
                     },
                     "to": {
-                        "startLines": "9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "532,572,615,661,705,750,796,842,888,930,972",
-                        "endColumns": "39,42,45,43,44,45,45,45,41,41,42",
-                        "endOffsets": "567,610,656,700,745,791,837,883,925,967,1010"
+                        "startLines": "9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "532,572,615,661,705,750,796,842,888,930,972,1014",
+                        "endColumns": "39,42,45,43,44,45,45,45,41,41,41,42",
+                        "endOffsets": "567,610,656,700,745,791,837,883,925,967,1009,1052"
                     }
                 },
                 {
-                    "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\32fa9bb097c7854aad6f485d6b058ba8\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\thecuong064\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\949ebfd8f4606ee071886d73b16adc58\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1",
                         "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1",
                         "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,20,21",
+                        "startLines": "2,3,4,5,6,7,8,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,114,185,256,326,396,464,1015,1119",
+                        "startOffsets": "55,114,185,256,326,396,464,1057,1161",
                         "endColumns": "58,70,70,69,69,67,67,103,115",
-                        "endOffsets": "109,180,251,321,391,459,527,1114,1230"
+                        "endOffsets": "109,180,251,321,391,459,527,1156,1272"
                     }
                 }
             ]

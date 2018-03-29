@@ -17,7 +17,7 @@
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="MATH FOR KID"
+        tools:text="MAD Math"
         android:layout_centerHorizontal="true"
         android:layout_above="@id/fakeView"
         android:textSize="@dimen/title_size"/>
@@ -27,7 +27,8 @@
         android:layout_height="@dimen/play_button_h"
         android:background="@drawable/play_btn_effect"
         android:layout_centerInParent="true"
-        android:layout_below="@id/fakeView"/>
+        android:layout_below="@id/fakeView"
+        android:scaleType="fitCenter"/>
 
     <TextView
         android:layout_width="wrap_content"

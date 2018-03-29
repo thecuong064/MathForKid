@@ -7,7 +7,8 @@
     tools:context="cuong.mathforkid.GameActivity"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    android:paddingTop="8dp">
+    android:paddingTop="8dp"
+    tools:background="@color/colorAccent">
 
     <TextView
         android:id="@+id/cScore"
@@ -30,6 +31,17 @@
         tools:text="50"
         android:textSize="@dimen/score_size"
         android:textColor="#000"/>
+
+    <ImageButton
+        android:id="@+id/sound"
+        android:layout_width="@dimen/sound_size"
+        android:layout_height="@dimen/sound_size"
+        android:layout_alignEnd="@+id/falseBtn"
+        android:layout_alignTop="@+id/cScore"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="8dp"
+        android:background="@null"
+        android:src="@drawable/unmute"/>
 
     <View
         android:id="@+id/fakeView"

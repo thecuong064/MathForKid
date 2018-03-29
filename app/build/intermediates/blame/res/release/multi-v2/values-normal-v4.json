@@ -1,45 +1,23 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Android\\FreakingMath\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-normal-v4\\values-normal-v4.xml",
-            "map": [
-                {
-                    "source": "E:\\Android\\FreakingMath\\app\\src\\main\\res\\values-normal\\dimens.xml",
-                    "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,9",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,4",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,319",
-                        "endColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,42",
-                        "endOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,357"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,95,138,184,227,272,315,360,402,444",
-                        "endColumns": "39,42,45,42,44,42,44,41,41,42",
-                        "endOffsets": "90,133,179,222,267,310,355,397,439,482"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "E:\\Android\\CuuChuong\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-normal-v4\\values-normal-v4.xml",
             "map": [
                 {
                     "source": "E:\\Android\\CuuChuong\\app\\src\\main\\res\\values-normal\\dimens.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1,6,5,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,4,4,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,208,163,-1,-1,-1,-1",
-                        "endColumns": "-1,-1,-1,-1,-1,44,44,-1,-1,-1,-1",
-                        "endOffsets": "-1,-1,-1,-1,-1,248,203,-1,-1,-1,-1"
+                        "startLines": "2,15,16,14,13,6,5,9,8,11,4,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,570,613,527,482,208,163,321,279,409,121,366",
+                        "endColumns": "39,42,45,42,44,44,44,44,41,41,41,42",
+                        "endOffsets": "90,608,654,565,522,248,203,361,316,446,158,404"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,95,138,184,227,272,317,362,407,449,491",
-                        "endColumns": "39,42,45,42,44,44,44,44,41,41,42",
-                        "endOffsets": "90,133,179,222,267,312,357,402,444,486,529"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,95,138,184,227,272,317,362,407,449,491,533",
+                        "endColumns": "39,42,45,42,44,44,44,44,41,41,41,42",
+                        "endOffsets": "90,133,179,222,267,312,357,402,444,486,528,571"
                     }
                 }
             ]

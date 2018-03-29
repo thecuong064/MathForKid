@@ -21,19 +21,19 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class GameActivity extends AppCompatActivity implements View.OnClickListener, View.OnTouchListener {
-    static final String[] backGrColor= {"#9C27B0", "#6A1B9A", "#3949AB", "#512DA8", "#1565C0", "#FFB300", "#9E9D24",
-                                        "#64DD17", "#00E676", "#FFA000", "#5D4037", "#455A64"};
+    static final String[] backGrColor= {"#8E24AA", "#3949AB", "#512DA8", "#1565C0", "#FFB300", "#9E9D24",
+                                        "#64DD17", "#00C853", "#FFA000", "#5D4037", "#455A64"};
     RelativeLayout layout;
     TextView formulaText, resText, curScoreText, cScore;
-    int a, b, res, maxx, minn, keyRes, currentScore;
-    ImageButton trueChoice, falseChoice;
+    int a, b, res, maxx, minn, keyRes, currentScore, equation;
+    ImageButton trueChoice, falseChoice,soundButton;
     Timer timer;
     TimerTask timerTask;
     Random random;
     ProgressBar proBar;
     CountDownTimer countDownTimer;
     MediaPlayer rightSound,wrongSound;
-    boolean startGame;
+    boolean startGame,mute;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,6 +48,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
         curScoreText = findViewById(R.id.cScoreView);
         cScore = findViewById(R.id.cScore);
         proBar = findViewById(R.id.progress);
+        soundButton = findViewById(R.id.sound);
 
         //set random background color
         int randomColor = random.nextInt(12);
@@ -64,17 +65,23 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
         cScore.setText(R.string.score);    cScore.setTextColor(getResources().getColor(R.color.textColor));
         curScoreText.setText("0");  curScoreText.setTextColor(getResources().getColor(R.color.textColor));
 
+
         currentScore = 0;
         startGame = false; //value to keep the timer stop
         //user input
         trueChoice.setOnClickListener(this);
         falseChoice.setOnClickListener(this);
+        soundButton.setOnClickListener(this);
         trueChoice.setOnTouchListener(this);
         falseChoice.setOnTouchListener(this);
 
         //create sound for button click
         rightSound = MediaPlayer.create(this, R.raw.rightbell);
         wrongSound = MediaPlayer.create(this, R.raw.wrongbell);
+
+        //get the volume status from previous game
+        mute = getIntent().getBooleanExtra("mute",false);
+        if (!mute) unmuteSound(); else muteSound();
 
         gameplay();
     }
@@ -86,10 +93,22 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
 
         a = random.nextInt((maxx - minn) + 1) + minn;
         b = random.nextInt((maxx - minn) + 1) + minn;
-        res = a * b;
-
-        //display question
-        formulaText.setText(a+" x "+b);
+        
+       //random number for equation: 0-->multiply ; 1-->add 
+       equation = random.nextInt(2);
+       if (equation == 0) {
+           res = a * b;
+           //display equation
+           formulaText.setText(a + " x " + b);
+       }
+       else
+       {
+           res = a + b;
+           //display question
+           formulaText.setText(a + " + " + b);
+       }
+       
+       //set color for the equation
         formulaText.setTextColor(getResources().getColor(R.color.textColor));
 
         keyRes = random.nextInt(2);       //random for wrong or right result
@@ -123,16 +142,16 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
             }
         };
         startProgressbar();       //create progress bar for timer task
-        timer.schedule(timerTask,2000);        //time each turn
+        timer.schedule(timerTask,1000);        //time each turn
          */
         startProgressbar();
     }
 
     private void startProgressbar() {
-    proBar.setMax(2000);
-    proBar.setProgress(2000);
+    proBar.setMax(1000);
+    proBar.setProgress(1000);
         //call onTick every 10ms
-        countDownTimer = new CountDownTimer(2000,10) {
+        countDownTimer = new CountDownTimer(1000,10) {
             @Override
             public void onTick(long time) {
                proBar.setProgress(((int)time));
@@ -165,13 +184,36 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
                     continueGame();
                 } else {
                     gameOverDisplay();  }
+                 break;
+            case R.id.sound:
+                if (mute)
+                {
+                    mute = false;
+                    unmuteSound();
+                } else {
+                    mute = true;
+                    muteSound();
+                }
+                break;
             default:
                 break;
         }
     }
 
+    private void muteSound() {
+        soundButton.setImageResource(R.drawable.mute);
+        rightSound.setVolume(0,0);
+        wrongSound.setVolume(0,0);
+    }
+
+    private void unmuteSound() {
+        soundButton.setImageResource(R.drawable.unmute);
+        rightSound.setVolume(1,1);
+        wrongSound.setVolume(1,1);
+    }
+
     private void continueGame() {
-        playRightSound();   //play sound
+        if (!mute) playRightSound();   //play sound
         currentScore+=1;
         updateCurrentScore();
         cancelTimer();
@@ -194,6 +236,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
         cancelTimer();
         Intent t = new Intent(this,GameOverActivity.class);
         t.putExtra("score",currentScore);
+        t.putExtra("mute",mute);
         startActivity(t);
         finish();
     }

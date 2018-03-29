@@ -14,6 +14,7 @@ public class GameOverActivity extends AppCompatActivity implements View.OnClickL
     Button resumeBtn, exitBtn;
     TextView score, title, over, cScore, tScore, best;
     int newScore, bestScore;
+    boolean mute;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,6 +59,7 @@ public class GameOverActivity extends AppCompatActivity implements View.OnClickL
         tScore.setText(R.string.best);
 
         newScore = getIntent().getIntExtra("score",0);
+        mute = getIntent().getBooleanExtra("mute",false);
         updateTopScore();
         score.setText(""+newScore);
 
@@ -83,6 +85,7 @@ public class GameOverActivity extends AppCompatActivity implements View.OnClickL
         switch (view.getId()) {
             case R.id.resume:
                 Intent returnIntent = new Intent(this,GameActivity.class);
+                returnIntent.putExtra("mute",mute);
                 startActivity(returnIntent);
                 finish();
                 break;

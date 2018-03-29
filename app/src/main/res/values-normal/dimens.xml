@@ -9,6 +9,7 @@
     <dimen name="score_size">18sp</dimen>
     <dimen name="question_size">64sp</dimen>
     <dimen name="yesno_size">160dp</dimen>
+    <dimen name="sound_size">25dp</dimen>
     <!--Game Over Activity -->
     <dimen name="gameover_size">28sp</dimen>
     <dimen name="button_go_w">75dp</dimen>
